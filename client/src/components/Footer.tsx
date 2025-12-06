@@ -67,7 +67,7 @@ export default function Footer() {
               data-testid="link-footer-logo"
             >
               <img 
-                src="/attached_assets/logocompletonuevo_1764984750997.png" 
+                src="/logocompletonuevo.png" 
                 alt="LG Odontología" 
                 className="h-16 w-auto"
               />
