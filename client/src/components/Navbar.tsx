@@ -54,7 +54,7 @@ export default function Navbar() {
               data-testid="link-logo"
             >
               <img 
-                src="/attached_assets/logo_transparente_letras_doradas_1764983565472.png" 
+                src="/attached_assets/logocompletonuevo_1764984750997.png" 
                 alt="LG Odontología" 
                 className="h-12 md:h-14 w-auto"
               />
@@ -117,7 +117,7 @@ export default function Navbar() {
           <div className="flex flex-col h-full">
             <div className="flex items-center justify-between p-4 border-b border-border">
               <img 
-                src="/attached_assets/logo_transparente_letras_doradas_1764983565472.png" 
+                src="/attached_assets/logocompletonuevo_1764984750997.png" 
                 alt="LG Odontología" 
                 className="h-10 w-auto"
               />
