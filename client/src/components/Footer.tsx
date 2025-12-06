@@ -4,7 +4,6 @@ import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import { Send, CheckCircle2 } from "lucide-react";
 import { SiInstagram, SiFacebook, SiWhatsapp, SiVisa, SiMastercard } from "react-icons/si";
-import logoClinica from "@assets/logo_clinica_1764978951153.png";
 
 const footerLinks = [
   { href: "#inicio", label: "Inicio" },
@@ -67,14 +66,15 @@ export default function Footer() {
               className="inline-block mb-4"
               data-testid="link-footer-logo"
             >
-              <img 
-                src={logoClinica} 
-                alt="Odontología Estética Integral - Dr. Luis Javier Gaxiola" 
-                className="h-16 w-auto object-contain"
-              />
+              <span className="font-serif text-2xl font-semibold text-gold">
+                LG
+              </span>
+              <span className="font-serif text-xl text-foreground ml-2">
+                Odontología
+              </span>
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Odontología Estética Integral: clínica dental con más de 20
+              LG Odontología Estética Integral: clínica dental con más de 20
               años transformando sonrisas en Guaymas con tecnología avanzada y
               trato humano.
             </p>

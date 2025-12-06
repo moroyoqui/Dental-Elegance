@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
-import logoClinica from "@assets/logo_clinica_1764978951153.png";
 
 const navLinks = [
   { href: "#inicio", label: "Inicio" },
@@ -54,11 +53,12 @@ export default function Navbar() {
               className="flex items-center gap-2"
               data-testid="link-logo"
             >
-              <img 
-                src={logoClinica} 
-                alt="Odontología Estética Integral - Dr. Luis Javier Gaxiola" 
-                className="h-12 md:h-14 w-auto object-contain"
-              />
+              <span className="font-serif text-xl md:text-2xl font-semibold text-gold">
+                LG
+              </span>
+              <span className="hidden sm:block font-serif text-lg text-foreground">
+                Odontología Estética
+              </span>
             </a>
 
             <div className="hidden lg:flex items-center gap-1">
@@ -117,11 +117,9 @@ export default function Navbar() {
         >
           <div className="flex flex-col h-full">
             <div className="flex items-center justify-between p-4 border-b border-border">
-              <img 
-                src={logoClinica} 
-                alt="Odontología Estética Integral" 
-                className="h-10 w-auto object-contain"
-              />
+              <span className="font-serif text-xl font-semibold text-gold">
+                LG Odontología
+              </span>
               <Button
                 variant="ghost"
                 size="icon"
