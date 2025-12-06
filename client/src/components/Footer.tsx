@@ -63,13 +63,13 @@ export default function Footer() {
                 e.preventDefault();
                 scrollToSection("#inicio");
               }}
-              className="inline-block mb-4 bg-background/40 backdrop-blur-sm border border-gold/20 rounded-lg px-4 py-3 shadow-lg shadow-gold/10 hover:shadow-gold/20 transition-all"
+              className="inline-block mb-4 bg-background/40 backdrop-blur-sm border border-gold/20 rounded-lg px-3 py-3 shadow-lg shadow-gold/10 hover:shadow-gold/20 transition-all"
               data-testid="link-footer-logo"
             >
               <img 
-                src="/logocompletonuevo.png" 
+                src="/logo-icon.png" 
                 alt="LG Odontología" 
-                className="h-16 w-auto drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]"
+                className="h-12 w-auto drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]"
               />
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed">

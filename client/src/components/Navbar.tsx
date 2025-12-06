@@ -50,7 +50,7 @@ export default function Navbar() {
                 e.preventDefault();
                 scrollToSection("#inicio");
               }}
-              className={`flex items-center transition-all duration-300 rounded-lg px-3 py-2 ${
+              className={`flex items-center transition-all duration-300 rounded-lg px-2 py-2 ${
                 isScrolled 
                   ? "" 
                   : "bg-background/40 backdrop-blur-sm border border-gold/20 shadow-lg shadow-gold/10"
@@ -58,9 +58,9 @@ export default function Navbar() {
               data-testid="link-logo"
             >
               <img 
-                src="/logocompletonuevo.png" 
+                src="/logo-icon.png" 
                 alt="LG Odontología" 
-                className="h-14 md:h-16 w-auto drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]"
+                className="h-10 md:h-12 w-auto drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]"
               />
             </a>
 
@@ -120,11 +120,11 @@ export default function Navbar() {
         >
           <div className="flex flex-col h-full">
             <div className="flex items-center justify-between p-4 border-b border-border">
-              <div className="bg-background/40 backdrop-blur-sm border border-gold/20 rounded-lg px-3 py-2 shadow-lg shadow-gold/10">
+              <div className="bg-background/40 backdrop-blur-sm border border-gold/20 rounded-lg px-2 py-2 shadow-lg shadow-gold/10">
                 <img 
-                  src="/logocompletonuevo.png" 
+                  src="/logo-icon.png" 
                   alt="LG Odontología" 
-                  className="h-10 w-auto drop-shadow-[0_0_6px_rgba(212,175,55,0.4)]"
+                  className="h-8 w-auto drop-shadow-[0_0_6px_rgba(212,175,55,0.4)]"
                 />
               </div>
               <Button

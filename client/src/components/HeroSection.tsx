@@ -24,13 +24,24 @@ export default function HeroSection() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
         <div className="animate-fade-in-up">
-          <h1
-            className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-ivory leading-tight mb-6"
+          <div className="mb-6">
+            <h1
+              className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gold-gradient leading-tight mb-2 tracking-wide"
+              data-testid="text-hero-brand"
+            >
+              LG Odontología
+            </h1>
+            <p className="text-xl sm:text-2xl md:text-3xl text-ivory/90 font-light tracking-widest">
+              Estética Integral
+            </p>
+          </div>
+          <h2
+            className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-ivory leading-tight mb-6 mt-8"
             data-testid="text-hero-title"
           >
             Un equipo, una misión:{" "}
             <span className="text-gold-gradient">Tu Mejor Sonrisa</span>
-          </h1>
+          </h2>
 
           <p
             className="text-lg sm:text-xl md:text-2xl text-ivory/90 mb-4 font-light"
