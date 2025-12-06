@@ -50,13 +50,17 @@ export default function Navbar() {
                 e.preventDefault();
                 scrollToSection("#inicio");
               }}
-              className="flex items-center"
+              className={`flex items-center transition-all duration-300 rounded-lg px-3 py-2 ${
+                isScrolled 
+                  ? "" 
+                  : "bg-background/40 backdrop-blur-sm border border-gold/20 shadow-lg shadow-gold/10"
+              }`}
               data-testid="link-logo"
             >
               <img 
                 src="/logocompletonuevo.png" 
                 alt="LG Odontología" 
-                className="h-12 md:h-14 w-auto"
+                className="h-14 md:h-16 w-auto drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]"
               />
             </a>
 
@@ -116,11 +120,13 @@ export default function Navbar() {
         >
           <div className="flex flex-col h-full">
             <div className="flex items-center justify-between p-4 border-b border-border">
-              <img 
-                src="/logocompletonuevo.png" 
-                alt="LG Odontología" 
-                className="h-10 w-auto"
-              />
+              <div className="bg-background/40 backdrop-blur-sm border border-gold/20 rounded-lg px-3 py-2 shadow-lg shadow-gold/10">
+                <img 
+                  src="/logocompletonuevo.png" 
+                  alt="LG Odontología" 
+                  className="h-10 w-auto drop-shadow-[0_0_6px_rgba(212,175,55,0.4)]"
+                />
+              </div>
               <Button
                 variant="ghost"
                 size="icon"
