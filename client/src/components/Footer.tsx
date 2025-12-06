@@ -66,12 +66,11 @@ export default function Footer() {
               className="inline-block mb-4"
               data-testid="link-footer-logo"
             >
-              <span className="font-serif text-2xl font-semibold text-gold">
-                LG
-              </span>
-              <span className="font-serif text-xl text-foreground ml-2">
-                Odontología
-              </span>
+              <img 
+                src="/attached_assets/logo_transparente_letras_doradas_1764983565472.png" 
+                alt="LG Odontología" 
+                className="h-16 w-auto"
+              />
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed">
               LG Odontología Estética Integral: clínica dental con más de 20

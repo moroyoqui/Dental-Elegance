@@ -50,15 +50,14 @@ export default function Navbar() {
                 e.preventDefault();
                 scrollToSection("#inicio");
               }}
-              className="flex items-center gap-2"
+              className="flex items-center"
               data-testid="link-logo"
             >
-              <span className="font-serif text-xl md:text-2xl font-semibold text-gold">
-                LG
-              </span>
-              <span className="hidden sm:block font-serif text-lg text-foreground">
-                Odontología Estética
-              </span>
+              <img 
+                src="/attached_assets/logo_transparente_letras_doradas_1764983565472.png" 
+                alt="LG Odontología" 
+                className="h-12 md:h-14 w-auto"
+              />
             </a>
 
             <div className="hidden lg:flex items-center gap-1">
@@ -117,9 +116,11 @@ export default function Navbar() {
         >
           <div className="flex flex-col h-full">
             <div className="flex items-center justify-between p-4 border-b border-border">
-              <span className="font-serif text-xl font-semibold text-gold">
-                LG Odontología
-              </span>
+              <img 
+                src="/attached_assets/logo_transparente_letras_doradas_1764983565472.png" 
+                alt="LG Odontología" 
+                className="h-10 w-auto"
+              />
               <Button
                 variant="ghost"
                 size="icon"
